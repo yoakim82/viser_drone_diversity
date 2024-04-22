@@ -6,7 +6,7 @@ More info on the VISER project can be found [here](https://www.ri.se/en/what-we-
 Essentially it is a system for detecting UAVs in a delimited airspace using several visual sensors. The system is using these synthetic datasets to classify airborne objects detected in the vicinity of critical infrastructure objects.
 
 All datasets described below can be accessed at the following cloud storage link.
-![VISER DroneDiversity Dataset](https://mdu.drive.sunet.se/index.php/s/fBFi8n434fToGyX)
+[VISER DroneDiversity Dataset](https://mdu.drive.sunet.se/index.php/s/fBFi8n434fToGyX)
 
 ## Synth Base
 (seg_small_batches previously)
