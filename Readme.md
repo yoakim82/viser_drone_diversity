@@ -28,7 +28,7 @@ This maximizes the scene diversity in the set, at the cost of generation time. T
 This synthset is generated with the same four categories of objects of interest, however the multirotor category objects are replaced with a total of four different NeRF-based models, see below, which carry a higher degree of photo realism compared to the synthetic multirotor models. Similarly to the Synth Base set, each recorded snapshot in this dataset is rendered with a freshly generated scene, see example below.
 ![NeRF Drones](assets_nerf_drones.png)
 
-![seg_small_nerf_batches.png](.attachments.3565740/seg_small_nerf_batches.png)
+![NeRF Diverse](seg_small_nerf_batches.png)
 
 ## NeRF Perturb
 
