@@ -34,7 +34,7 @@ This synthset is generated with the same four categories of objects of interest,
 
 This synthset is generated with the same 4 categories of objects of interest with the same NeRF-based multirotor models. In this dataset, each scene is exploited 10 times (see Figure 3) before a new scene generation step is executed. The objects of interest are randomly moved around the scene, including object pose alteration. This yields a greatly reduced generation time. Because of the quicker generation time, we generated twice the amount of images in this set (i.e. 1000 images per town).
 
-![nerf_perturb.png](.attachments.3565740/nerf_perturb.png)
+![](nerf_perturb.png)
 
 ## Swan Perturb
 
