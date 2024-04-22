@@ -1,5 +1,14 @@
-## Synth Base
+### VISER DroneDiversity Dataset
 
+![Dataset Sample](dataset_combo_wide.png)
+Below we list the different datasets generated within the VISER Drone Surveillance project.
+More info on the VISER project can be found [here](https://www.ri.se/en/what-we-do/projects/visual-inspection-of-airspace-for-air-traffic-safety-and-security).
+Essentially it is a system for detecting UAVs in a delimited airspace using several visual sensors. The system is using these synthetic datasets to classify airborne objects detected in the vicinity of critical infrastructure objects.
+
+All datasets described below can be accessed at the following cloud storage link.
+![VISER DroneDiversity Dataset](https://mdu.drive.sunet.se/index.php/s/fBFi8n434fToGyX)
+
+## Synth Base
 (seg_small_batches previously)
 
 This synthset is generated with 4 categories of objects of interest:  
@@ -17,6 +26,7 @@ This maximizes the scene diversity in the set, at the cost of generation time. T
 ## NeRF Diverse
 
 This synthset is generated with the same four categories of objects of interest, however the multirotor category objects are replaced with a total of four different NeRF-based models, see below, which carry a higher degree of photo realism compared to the synthetic multirotor models. Similarly to the Synth Base set, each recorded snapshot in this dataset is rendered with a freshly generated scene, see example below.
+![NeRF Drones](assets_nerf_drones.png)
 
 ![seg_small_nerf_batches.png](.attachments.3565740/seg_small_nerf_batches.png)
 
