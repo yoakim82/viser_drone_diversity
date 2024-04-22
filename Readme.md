@@ -41,4 +41,4 @@ This synthset is generated with the same 4 categories of objects of interest wit
 This synthset is generated with the same 4 categories of objects of interest (multirotors, birds, airliners and fixed wings), however in this set we target a specific multirotor model (the Swan), so only this NeRF-based model is in the multirotor object category. Similarly to NeRF Perturb,  
 in this dataset each scene is exploited 10 times before a new scene generation step is executed. This dataset is a more targeted set to the detection of this specific multirotor model. Because of the quicker generation time, we generated twice the amount of images in this set (i.e. 1000 images per town).
 
-![swan_perturb.png](.attachments.3565740/swan_perturb.png)
+![Swan Perturb](swan_perturb.png)
