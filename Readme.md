@@ -11,11 +11,8 @@ freshly generated scene, i.e. the scene is considered exploited after one genera
 snapshot and the object perturbation is not applied here.  
 This maximizes the scene diversity in the set, at the cost of generation time. The assets are shown below.
 
-![assets_drones.png](.attachments.3565740/assets_drones.png)
-
-![assets_plane_birds.png](.attachments.3565740/image%20%282%29.png)
-
-![synth_drones.png](.attachments.3565740/synth_drones.png)
+![assets_drones.png]
+![assets_plane_birds.png]
 
 ## NeRF Diverse
 
