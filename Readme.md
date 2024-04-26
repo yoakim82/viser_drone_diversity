@@ -10,7 +10,7 @@ All datasets described below can be accessed at the following cloud storage link
 
 ## Metadata distribution
 ![image](https://github.com/yoakim82/viser_drone_diversity/assets/6775811/34e4b416-5d0a-45cb-af9e-417096b4f7ca)
-These graphs show how the data is spread across different parameters. 
+These graphs show how the data is spread across different parameters. This is taken for all datasets combined, however, the distribution is very similar for the individual sets.
 
 ## Synth Base
 (seg_small_batches previously)
