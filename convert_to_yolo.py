@@ -156,6 +156,7 @@ def main():
     parser.add_argument("--source", type=str, default="carla", help="use 'carla' if input is synthetic (default: 'carla')")
 
     args = parser.parse_args()
+    width, height = 640, 640
 
     if args.source == "carla":
         dlist = get_list_of_data_folders([])
@@ -171,15 +172,15 @@ def main():
             annotation_files = glob(os.path.join(out_bbox_folder, "*.txt"))
 
             for annotation_file in annotation_files:
-                convert_annotation(annotation_file, labels_folder, out_rgb_folder)
+                convert_annotation(annotation_file, labels_folder, out_rgb_folder, (width, height))
 
 
         train_list = shifted_list[0:args.train_num]
         val_list = shifted_list[args.train_num:args.train_num+args.valid_num]
         test_list = shifted_list[args.train_num+args.valid_num:]
-        exp_name = f"exp_{args.shift}"
-        partition_dataset(args.folder, train_list, val_list, test_list, exp_name)
-        create_dataset_yaml(exp_name, args.folder)
+        exp_name = f"{args.experiment_name}_{args.shift}"
+        partition_dataset(args.folder, train_list, val_list, test_list, train_list, background_ratio=0.2, exp_name=exp_name)
+        create_dataset_yaml(exp_name, args.folder, framework="yolov8", img_size=width)
 
 
 
